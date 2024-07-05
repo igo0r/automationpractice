@@ -12,20 +12,27 @@ Prerequisites:
 2) Run `npm install`
 
 How to run all tests:
+
 ```npm run test```
 OR
+
 ```npx playwright test```
 OR
+
 ```npm playwright test```
 OR
+
 ```node ./node_modules/.bin/playwright test```
 
 
 How to validate Typescript:
+
 ```npm run validate```
 
 How to fix and prettify Typescript:
+
 ```npm run format```
 
 How to open Report:
+
 ```npx playwright show-report```

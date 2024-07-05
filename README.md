@@ -14,12 +14,15 @@ Prerequisites:
 How to run all tests:
 
 ```npm run test```
+
 OR
 
 ```npx playwright test```
+
 OR
 
 ```npm playwright test```
+
 OR
 
 ```node ./node_modules/.bin/playwright test```

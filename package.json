@@ -1,0 +1,45 @@
+{
+    "name": "limehome",
+    "version": "1.0.0",
+    "description": "Playwright with typescript for limehome automation practice both Frontend and Api parts",
+    "main": "index.js",
+    "scripts": {
+        "test": "node ./node_modules/.bin/playwright test",
+        "format": "npm run prettier -- --write && npm run lint -- --fix",
+        "lint": "./node_modules/.bin/eslint ./**/*.ts",
+        "prettier": "./node_modules/.bin/prettier \"*/**/*.+(cjs|ts|js|json)\" \"*.+(cjs|ts|js|json)\"",
+        "validate": "npm run lint && npm run prettier -- --check"
+    },
+    "prettier": {
+        "arrowParens": "avoid",
+        "bracketSpacing": true,
+        "insertPragma": false,
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": false,
+        "printWidth": 106,
+        "proseWrap": "preserve",
+        "quoteProps": "as-needed",
+        "requirePragma": false,
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "none",
+        "useTabs": false
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@faker-js/faker": "^8.4.1",
+        "@playwright/test": "^1.45.0",
+        "@types/node": "^20.14.9",
+        "@typescript-eslint/eslint-plugin": "^6.5.0",
+        "@typescript-eslint/parser": "^6.5.0",
+        "dotenv": "^16.4.5",
+        "eslint": "^8.56.0",
+        "jsdom": "^24.1.0",
+        "prettier": "^3.2.4",
+        "typescript": "5.3.3",
+        "@testomatio/reporter": "^1.4.6"
+    }
+}
